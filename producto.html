@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Producto</title>
+    <link rel="stylesheet" href="/css/estilowebapp.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"/>
+  </head>
+  <body>
+    <section class="contenedor">
+      <article class="fichaproducto">
+        <h2 class="titulo2" id="nombre">Nombre del producto</h2>
+        <img src="/img/athletic-shoes-ge892a19f8_640.png" alt="" />
+        <p class="parrafo" id="descripcion">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+          perferendis sed maxime atque voluptatum dolores vitae et similique
+          delectus praesentium!</p>
+        <section>
+          <div class="btncantidad">
+            <button class="btn1">-</button>
+            <button class="btn2">99</button>
+            <button class="btn1">+</button>
+          </div>
+          <div>
+            <button class="btn"><i class="bx bx-cart-add"></i></button>
+          </div>
+        </section>
+        <p class="precio" id="precio">$ 999.99</p>
+      </article>
+      <button class="btn" id="btncatalogo">
+        <i class="bx bx-category"></i> Catálogo
+      </button>
+    </section>
+    <script>
+      var btn1 = document
+        .getElementById("btncatalogo")
+        .addEventListener("click", catalogo, true);
+      function catalogo() {
+        document.location.href = "catalogo.html";
+      }
+      function producto(nom, descr, precio) {
+        var btn1 = document.getElementById("btncatalogo");
+      }
+    </script>
+  </body>
+</html>

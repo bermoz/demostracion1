@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+
+img {
+  width: 100%;
+}
+.contenedor {
+  width: 414px;
+  height: 896px;
+  background-color: greenyellow;
+  background-image: url(/img/skateboard-g76cbf958d_1280.jpg);
+  padding: 15px;
+  border-radius: 35px;
+}
+.encabezado {
+  background-image: url(/img/fondoencabezado.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.popularidad {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.star {
+  background-image: url(/img/Star2.svg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  width: 50px;
+  height: 50px;
+}
+.btncantidad {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Jockey One", sans-serif;
+  font-size: 32px;
+  background-color: #cbcbce;
+  border-radius: 35px;
+  color: white;
+  padding: 5px;
+  width: 150px;
+  height: 60px;
+}
+.btn1{
+  
+  font-family: "Jockey One", sans-serif;
+  font-size: 32px;
+  font-weight: 200;
+  padding: 10px;
+  border-radius: 360px ;
+  text-align: center;
+}
+.btn1:hover{
+  background-color: #4329e5;
+  
+}
+
+.btn2{
+  font-family: "Jockey One", sans-serif;
+  font-size: 32px;
+  font-weight: 200;
+  padding: 5px;
+  text-align: center;
+}
+
+.btn {
+  font-family: "Jockey One", sans-serif;
+  font-size: 32px;
+  background-color: #4329e5;
+  border-radius: 35px;
+  color: white;
+  width: 334px;
+  height: 60px;
+}
+
+.btn:hover{
+  background-color: #373355;
+  color: black;  
+}
+.foto {
+  width: 50%;
+}
+.parrafo {
+  width: 365px;
+  height: 180px;
+  background-color: #181819b3;
+  padding: 15px;
+  font-family: "Jockey One", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(243, 243, 215);
+}
+.fichaproducto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  background-color: #181819b3;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.productos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.titulo2{
+  color:white;
+  font-size: 42px;
+}
+.producto {
+  width: 30%;
+  margin: 10px;
+  background-color: #181819b3;
+  padding: 15px;
+  border-radius: 25px;
+  border-style: solid;
+}
+.producto:hover {
+  width: 35%;
+  background-color: #373785b3;
+}
+.precio {
+  background-color: rgb(244, 244, 247);
+  padding: 20px;
+  border-radius: 15px;
+  font-family: "Jockey One", sans-serif;
+  font-size: 32px;
+  color: black;
+}
+.precio:hover {
+  background-color: rgb(68, 68, 179);
+  color: white;
+}

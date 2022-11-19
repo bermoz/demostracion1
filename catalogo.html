@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalogo</title>
+    <link rel="stylesheet" href="/css/estilowebapp.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="contenedor">
+      <article>
+        <h2 class="titulo2">Categoria</h2>
+        <p class="parrafo">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          esse eveniet cumque debitis. Laboriosam aut nemo deserunt repudiandae
+          quos incidunt corrupti, inventore quo?
+        </p>
+      </article>
+      <section class="productos">
+        <img class="producto" id="btnpr1" src="/img/shoes-g203831a06_640.png" alt="Foto producto" />
+        <img class="producto" id="btnpr2" src="/img/athletic-shoes-ge892a19f8_640.png" alt="Foto producto" />
+        <img class="producto" id="btnpr3" src="/img/shoes-g4ac226299_640.png" alt="Foto producto" />
+        <img class="producto" id="btnpr4" src="/img/shoes-gca766cbe5_640.png" alt="Foto producto" />
+        <img class="producto" id="btnpr5" src="/img/shoes-g4ac226299_640.png" alt="Foto producto" />
+        <img class="producto" id="btnpr6" src="/img/shoes-gca766cbe5_640.png" alt="Foto producto" />
+    </section>
+      <section>
+        <button class="btn" id="btninicio"><i class='bx bx-home'></i> Inicio</button>
+      </section>
+    </section>
+    <script>
+        var btn1 = document
+          .getElementById("btninicio")
+          .addEventListener("click", inicio, true);
+        var btnpr1 = document
+          .getElementById("btnpr1")
+          .addEventListener("click", pr1, true);
+        var btnpr2 = document
+          .getElementById("btnpr2")
+          .addEventListener("click", pr2, true);  
+          var btnpr3 = document
+          .getElementById("btnpr3")
+          .addEventListener("click", pr3, true);     
+        function inicio() {
+          document.location.href = "index.html";
+        }
+        function pr1() {
+          document.location.href = "producto.html";
+        }
+        function pr2() {
+          document.location.href = "producto.html";
+        }
+        function pr3() {
+          document.location.href = "producto.html";
+        }
+        function pr4() {
+          document.location.href = "producto.html";
+        }
+        function pr5() {
+          document.location.href = "producto.html";
+        }
+        function pr6() {
+          document.location.href = "producto.html";
+        }
+        
+      </script>
+  </body>
+</html>

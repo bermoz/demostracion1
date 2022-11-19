@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Información Usuario</title>
+    <link href='https://unpkg.com/boxicons@2.1.3/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/estilowebapp.css" />
+  </head>
+  <body>
+    <section class="contenedor">
+      <header class="encabezado" >
+        <h1 class="titulo2">Nombre estudiante</h1>
+        <img class="foto" src="/img/fotografia.png" alt="fotografia" />
+      </header>
+      <section class="contenido">
+        <p class="parrafo">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+          distinctio cum magni itaque, ea fugiat maxime. Asperiores, voluptatem
+          enim tempore quos officiis sapiente molestiae. Iusto distinctio
+          similique modi reprehenderit repellendus.
+        </p>
+      </section>
+      <section>
+        <button class="btn" id="btncatalogo"><i class='bx bx-category'></i> Catálogo</button>
+      </section>
+    </section>
+    <script>
+      var btn1 = document
+        .getElementById("btncatalogo")
+        .addEventListener("click", catalogo, true);
+      function catalogo() {
+        document.location.href = "catalogo.html";
+      }
+    </script>
+  </body>
+</html>
